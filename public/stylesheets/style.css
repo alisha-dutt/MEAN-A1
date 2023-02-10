@@ -1,11 +1,27 @@
-body {
-  padding: 0px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-}
+/* importing fonts */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Playfair+Display:wght@500&display=swap');
 
-a {
-  color: #00B7FF;
+body{
+  background-color: #feb914;
+  background-image: url('../images/banner.jpg');
+  background-size: cover;
+}
+main {
+  padding: 50px;
+  /* background-color: #feb914; */
 }
 nav{
-  background: linear-gradient(#e66465, #9198e5);
+  padding: 0px;
+  background-color: #feb914;
+  border-bottom: 1px solid black;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Playfair Display', serif;
+}
+p,span{
+  font-family: 'Josefin Sans', sans-serif;
+}
+/* semi transparent background */
+.bg-translucent{
+background-color: #ffffff71;
 }
