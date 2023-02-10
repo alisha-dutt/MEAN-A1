@@ -6,8 +6,17 @@ router.get('/',(req, res, next)=> {
   res.render('members/index', { title: 'Family Members' });
 });
 /* GET /father */
-router.get('members/father',(req, res)=> {
-  res.render('father', { title: 'Father' });
+router.get('/father',(req, res)=> {
+  res.render('members/father', { title: 'Father' });
 });
 
+/* GET /mother */
+router.get('/mother',(req, res)=> {
+  res.render('members/mother', { title: 'Mother' });
+});
+
+/* GET /brother */
+router.get('/brother',(req, res)=> {
+  res.render('members/brother', { title: 'Brother' });
+});
 module.exports = router;
