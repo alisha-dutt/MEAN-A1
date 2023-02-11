@@ -1,5 +1,8 @@
 /* importing fonts */
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Playfair+Display:wght@500&display=swap');
+/* logo fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Niconne&display=swap');
+/* font-family: 'Niconne', cursive; */
 
 body{
   background-color: #feb914;
@@ -11,9 +14,24 @@ main {
   /* background-color: #feb914; */
 }
 nav{
+  margin: 0px;
   padding: 0px;
   background-color: #feb914;
-  border-bottom: 1px solid black;
+  /* background-image: linear-gradient(#ffffffad 20%,#feb914 80%); */
+  border-bottom: 1px double  black;
+}
+.navbar-brand{
+  font-family: 'Niconne', cursive;
+  font-size: 40px;
+}
+.nav-link{
+  font-family:  'Josefin Sans', sans-serif;
+  color:black;
+  font-size:20px;
+}
+.logo{
+  width: 59px;
+  margin-top: -30px;
 }
 h1,h2,h3,h4,h5,h6{
   font-family: 'Playfair Display', serif;
@@ -24,4 +42,10 @@ p,span{
 /* semi transparent background */
 .bg-translucent{
 background-color: #ffffff71;
+}
+.bg-yellow{
+  background-color: #feb814b7;
+}
+.shadow{
+  height: 400px;
 }

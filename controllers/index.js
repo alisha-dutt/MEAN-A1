@@ -8,7 +8,7 @@ router.get('/',(req, res)=> {
 
 /* GET about page. */
 router.get('/about',(req, res)=> {
-  res.render('about', { title: 'About Me' });
+  res.render('about', { title: 'About'});
 });
 
 /* GET goals page. */

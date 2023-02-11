@@ -7,7 +7,13 @@ router.get('/',(req, res, next)=> {
 });
 /* GET /bestfriend */
 router.get('/bestfriend',(req, res)=> {
-  res.render('bestfriend', { title: 'bestfriend' });
+  res.render('friends/bestfriend', { title: 'My Best friends' });
 });
+
+/* GET /boyfriend */
+router.get('/boyfriend',(req, res)=> {
+  res.render('friends/boyfriend', { title: 'My Boyfriend' });
+});
+
 
 module.exports = router;
