@@ -5,14 +5,14 @@ const router = express.Router();
 router.get('/',(req, res, next)=> {
   res.render('friends/index', { title: 'Friends' });
 });
-/* GET /bestfriend */
+/* GET /bestfriend1 */
 router.get('/bestfriend',(req, res)=> {
-  res.render('friends/bestfriend', { title: 'My Best friends' });
+  res.render('friends/bestfriend1', { title: 'My Best friend' });
 });
 
-/* GET /boyfriend */
+/* GET /bestfriend2 */
 router.get('/boyfriend',(req, res)=> {
-  res.render('friends/boyfriend', { title: 'My Boyfriend' });
+  res.render('friends/bestfriend2', { title: 'My Best friend' });
 });
 
 
