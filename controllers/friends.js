@@ -6,13 +6,13 @@ router.get('/',(req, res, next)=> {
   res.render('friends/index', { title: 'Friends' });
 });
 /* GET /bestfriend1 */
-router.get('/bestfriend',(req, res)=> {
-  res.render('friends/bestfriend1', { title: 'My Best friend' });
+router.get('/bestfriendmale',(req, res)=> {
+  res.render('friends/bestfriendmale', { title: 'My Best friend' });
 });
 
 /* GET /bestfriend2 */
-router.get('/boyfriend',(req, res)=> {
-  res.render('friends/bestfriend2', { title: 'My Best friend' });
+router.get('/bestfriendfemale',(req, res)=> {
+  res.render('friends/bestfriendfemale', { title: 'My Gal Best friend' });
 });
 
 
